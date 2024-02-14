@@ -1,0 +1,56 @@
+:root {
+    --clr-dark: #070a13;
+    --clr-light: #f1f5f9;
+  }
+  
+  * {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  .dark-mode {
+    --clr-light: #070a13;
+    --clr-dark: #f1f5f9;
+  }
+  
+  body {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    width: 95%;
+    margin: 0 auto;
+    font-family: "General Sans", sans-serif;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    grid-gap: 2em;
+  }
+  
+  button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    max-width: 60ch;
+    text-align: center;
+  }
+  
+  .theme-toggle {
+    width: 10rem;
+    height: 10rem;
+  }
+  
